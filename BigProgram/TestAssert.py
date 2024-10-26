@@ -13,6 +13,9 @@ def stack_tests():
     assert STACK.pop() == 13
     assert STACK.size() == 2
     assert STACK.peek() == 5
+    assert STACK.is_empty() is False
+    STACK.clear()
+    assert STACK.is_empty() is True
     print('ALL TESTS PASSED')
 
 
