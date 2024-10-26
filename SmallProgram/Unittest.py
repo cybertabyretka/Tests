@@ -13,7 +13,7 @@ class FibonacciTester(unittest.TestCase):
         self.assertEqual(fibonacci(18), 2584)
 
     def test4(self):
-        self.assertEqual(fibonacci(22), 17711)
+        self.assertEqual(fibonacci(22), 17710)
 
 
 if __name__ == '__main__':

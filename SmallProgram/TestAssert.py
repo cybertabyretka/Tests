@@ -6,7 +6,7 @@ def fibonacci_test():
     assert fibonacci(10) == 55
     assert fibonacci(18) == 2584
     assert fibonacci(22) == 17711
-    print('ALL TEST PASSED')
+    print('ALL TESTS PASSED')
 
 
 if __name__ == '__main__':
